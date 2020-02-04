@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Timetable">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/homeButton"
+            android:text="홈"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:textColor="#ffffff"
+            android:background="@color/color1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/scheduleButton"
+            android:text="시간표"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:background="@color/color"
+
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/freeTalk"
+            android:textColor="#ffffff"
+            android:text="잡담"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:background="@color/color"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/anyBoard"
+            android:text="분실물"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:background="@color/color"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/Bus"
+            android:text="버스"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:background="@color/color"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/logout"
+            android:text="로그아웃"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:background="@color/color"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/notice"
+            android:layout_width="match_parent"
+            android:layout_height="524dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

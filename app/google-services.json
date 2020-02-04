@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "46008815646",
+    "firebase_url": "https://jbucommunity.firebaseio.com",
+    "project_id": "jbucommunity",
+    "storage_bucket": "jbucommunity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46008815646:android:bf6a6798260ebcae",
+        "android_client_info": {
+          "package_name": "com.example.soohoon.community"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46008815646-2llo10mjr9vp4to7c8rm7tf1aa9rtp88.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "46008815646-2llo10mjr9vp4to7c8rm7tf1aa9rtp88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh5RjqA6Sq3CzF1ufvP-OeeP5QCel4-CE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/mytimedelete"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="삭제"
+        android:textColor="#212121"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#eeeeee">
+
+            <TextView
+                android:id="@+id/mytimeGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="학년"
+                android:textColor="#212121"
+                android:textColorHint="#212121" />
+
+            <TextView
+                android:id="@+id/mytimeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="강의제목"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#eeeeee">
+
+            <TextView
+                android:id="@+id/mytimeProfessor"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="교수님"
+                android:textColor="#3949ab"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/mytimecourseTime"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:text="강의 시간"
+                android:textColor="#6a1b9a"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/mytimecourseCredit"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:text="학점"
+                android:textColor="@color/color1"
+                android:textColorHint="#ffffff" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
